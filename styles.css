@@ -1,0 +1,125 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica
+}
+
+.calculatorBody {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    border: 2px;
+    border-style: solid;
+    width: 350px;
+    height: 600px;
+    
+}
+
+.calculatorScreen {
+    width: 290px;
+    height: 190px;
+    margin: 8px;
+    margin-left: 25px;
+    color: white;
+    
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.results {
+    align-self: flex-end;
+    font-size: 80px;
+    font-weight: 10;
+    font-family: 'Inter', sans-serif;    
+    
+}
+
+
+
+
+
+/*buttons*/
+
+.buttonBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 336px;
+    height: 390px;
+    margin: 5px;
+
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    display:flex;
+}
+
+
+button {
+    background-color: white;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 30px;
+    border: 0;
+    font-weight: 500;
+}
+
+.zero {
+    width: 148px;
+    border-radius: 50px;
+}
+
+#extra {
+    background-color: rgba(165,165,165);
+}
+
+#number {
+    background-color: rgb(51,51,51);
+    color: white;
+    
+}
+
+#sign {
+    background-color: rgb(255,159,10);
+    color: white;
+    font-size: 35px;
+}
+
+.zero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.posneg {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.clear {
+    font-size: 28px;
+}
+
+
+
+
