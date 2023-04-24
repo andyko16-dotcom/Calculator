@@ -38,7 +38,7 @@ body {
     flex-direction: column;
 }
 
-.results {
+#results {
     align-self: flex-end;
     font-size: 80px;
     font-weight: 10;
