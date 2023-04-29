@@ -12,7 +12,7 @@
 
     <div class='calculatorBody'>
         <div class='calculatorScreen'>
-            <div id="results">0</div>
+            <div id="results"></div>
         </div>
 
         <div class='buttonBody'>
@@ -21,26 +21,26 @@
                 <button class='clear' id="extra">AC</button>
                 <button class='posneg' id="extra">&plusmn;</button>
                 <button class='percent' id="extra">%</button>
-                <button class='divide' id="sign">&divide;</button>
+                <button class='sign' id="divide">&divide;</button>
                
             </div>
             <div class='row2'>
                 <button class='seven' id="number">7</button>
                 <button class='eight' id="number">8</button>
                 <button class='nine' id="number">9</button>
-                <button class='multiple' id="sign">&times;</button>
+                <button class='sign' id="multiple">&times;</button>
             </div>
             <div class='row3'>
                 <button class='four' id="number">4</button>
                 <button class='five' id="number">5</button>
                 <button class='six' id="number">6</button>
-                <button class='minus' id="sign">&minus;</button>
+                <button class='sign' id="minus">&minus;</button>
             </div>
             <div class='row4'>
                 <button class='one' id="number">1</button>
                 <button class='two' id="number">2</button>
                 <button class='three' id="number">3</button>
-                <button class='plus' id="sign">+</button>
+                <button class='sign' id="plus">+</button>
             </div>
             <div class='row5'>
                 <button class='zero' id="number">0</button>
@@ -52,8 +52,11 @@
 
     </div>
 
-
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" 
+        integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script src='script.js'></script>
 </body>
 </html>
