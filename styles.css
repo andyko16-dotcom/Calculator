@@ -105,6 +105,12 @@ button {
     font-size: 35px;
 }
 
+.sign {
+    background-color: rgb(255,159,10);
+    color: white;
+    font-size: 35px;
+}
+
 .zero {
     display: flex;
     justify-content: flex-start;
@@ -121,5 +127,7 @@ button {
 }
 
 
-
-
+.white {
+    background-color: white;
+    color: rgb(255,159,10);
+}
