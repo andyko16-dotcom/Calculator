@@ -29,3 +29,21 @@
 4/29/2023
 - enabled comma insertion with .toString.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 - now i need to work on evaluations for all equations
+- i need to add funtion for percentage, neg and pos, and pressing equal after getting answer, and pressing sign when numA = 0
+- working setting numA = 0 after clicking sign
+
+4/30/2023
+- i need to add cc change to when initial A is zero and i press a sign button
+- fixed cc change when i press sign, enabled pressing sign when numA = 0;
+- left with precentage, neg and pos, and pressing equal after getting answer.
+- enabled neg and pos
+- i need to work on rounding numbers bc percentage displays too many zeros
+- i need to work on equal sign after solving equation
+
+5/1/2023
+- i have figured out how to use decimals for inital states of numA and numB
+- i added the function to press the equal sign again.
+- i have added exponential
+- i have added neg and pos and percentage
+- i need to fix clicking mutiple percentages after getting evaluation
+- I need to orginize my code it is a mess and not easy to follow
